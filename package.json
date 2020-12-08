@@ -1,0 +1,38 @@
+{
+  "name": "mini-mvcs-sequelize-utils",
+  "version": "0.1.0",
+  "description": "Sequelize Utils for loading models, providing basic CRUD operations and transforming errors for use with Mini MVCS Errors lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-opts test/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nardhar/mini-mvcs-sequelize-utils.git"
+  },
+  "keywords": [
+    "model",
+    "sequelize",
+    "crud"
+  ],
+  "author": "Felix Carreño",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nardhar/mini-mvcs-sequelize-utils/issues"
+  },
+  "homepage": "https://github.com/nardhar/mini-mvcs-sequelize-utils#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.1",
+    "rewiremock": "^3.14.3"
+  },
+  "dependencies": {
+    "mini-mvcs-readdir-sync": "^0.1.0"
+  },
+  "peerDependencies": {
+    "mini-mvcs-errors": "^0.1.0"
+  }
+}
